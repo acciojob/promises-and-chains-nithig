@@ -8,7 +8,7 @@ const form = document.getElementById('votingForm');
       const age = document.getElementById('age').value.trim();
 
       if (!name || !age) {
-        alert("Please enter valid details.");
+        alert("Please enter valid details");
         return;
       }
 
